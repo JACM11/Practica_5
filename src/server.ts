@@ -35,7 +35,7 @@ export class Server{
     
     listen(){
         this.app.listen(this.app.get('port'),()=>{
-            console.log(`Server esta corriendo en el puerto ${this.app.get('port')}
+            console.log(`Server esta  en el puerto ${this.app.get('port')}
             `);
         })
     }
