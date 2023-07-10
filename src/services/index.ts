@@ -1,0 +1,1 @@
+export {equipoService} from './equipo.service';
